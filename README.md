@@ -59,7 +59,7 @@
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/literalura-challenge.git
+   git clone https://github.com/jjclinares/literalura-challenge.git
    ```
 2. Configura tu base de datos (PostgreSQL o MySQL) en el archivo `application.properties`.
 3. Ejecuta el proyecto desde tu IDE favorito:
