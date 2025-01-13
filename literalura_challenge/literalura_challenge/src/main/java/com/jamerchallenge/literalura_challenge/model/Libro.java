@@ -64,6 +64,8 @@ public class Libro {
         this.autores = autores;
     }
 
+    public void setDescargas(int descargas) {
+    }
 }
 
 
