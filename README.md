@@ -103,25 +103,6 @@ src/main/java/com/jamerchallenge/literalura_challenge
 
 ---
 
-## 🤖 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si deseas colaborar:
-1. Haz un fork del repositorio.
-2. Crea una nueva rama para tus cambios:
-   ```bash
-   git checkout -b feature/nueva-funcionalidad
-   ```
-3. Envía tu pull request.
-
----
-
-## 🎨 Animaciones
-
-- **Íconos visuales**: Cada sección está acompañada de íconos para mejorar la experiencia visual.
-- **Markdown estilizado**: Uso de emojis para destacar funcionalidades clave.
-
----
-
 ## 📈 Aprendizajes
 
 Este proyecto me permitió aprender y aplicar los siguientes conceptos:
