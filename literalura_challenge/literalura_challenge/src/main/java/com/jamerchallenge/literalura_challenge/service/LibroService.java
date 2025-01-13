@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class LibroService {
@@ -13,12 +14,30 @@ public class LibroService {
     @Autowired
     private LibroRepository libroRepository;
 
-    public void saveBooks(List<Libro> libros) {
-        libroRepository.saveAll(libros);
+    
+    public void insertarLibro(String titulo, String idioma, int descargas) {
+        Libro nuevoLibro = new Libro();
+        nuevoLibro.setTitulo(titulo);
+        nuevoLibro.setIdioma(idioma);
+        nuevoLibro.setDescargas(descargas);
+        libroRepository.save(nuevoLibro);
     }
 
-    public List<Libro> getAllBooks() {
-        return libroRepository.findAll();
+
+    public List<Libro> obtenerTodosLosLibros() {
+        return null;
+    }
+
+    
+    public List<Libro> buscarLibrosPorIdioma(String idioma) {
+        return libroRepository.findByIdioma(idioma);
+    }
+
+    public Optional<Libro> buscarLibroPorId(Long id) {
+        return libroRepository.findById(id);
+    }
+
+    public void saveBooks(List<Libro> libros) {
     }
 }
 
