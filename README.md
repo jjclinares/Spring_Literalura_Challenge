@@ -2,7 +2,7 @@
 
 ## 🚀 Introducción
 
-¡Bienvenido al proyecto **Literalura Challenge**! Este es un emocionante proyecto desarrollado con **Spring Boot** que integra una API pública para la búsqueda de libros y sus autores, permitiendo almacenarlos en una base de datos local. A través de este proyecto, demuestro todo mi aprendizaje en Spring y Springboot aplicando múltiples tecnologías y conceptos avanzados en desarrollo backend.
+¡Bienvenido al proyecto **Literalura Challenge**! Este es un emocionante proyecto desarrollado con **Spring Boot** que integra una API pública para la búsqueda de libros y sus autores, permitiendo almacenarlos en una base de datos local. A través de este proyecto, demuestro todo mi aprendizaje en Spring y Springboot aplicando múltiples tecnologías y conceptos avanzados en desarrollo backend.integrando funcionalidades como  CRUD completo, y protección mediante autenticación y validación. 🛠️
 
 ---
 
@@ -71,6 +71,30 @@
 
 ---
 
+
+📂 Estructura del Proyecto
+```
+src/main/java/com/jamerchallenge/literalura_challenge
+│
+├── LiteraluraChallengeApplication.java
+├── dto
+│   ├── AutorDto.java
+│   └── LibroDto.java
+├── model
+│   ├── Autor.java
+│   └── Libro.java
+├── repository
+│   ├── AutorRepository.java
+│   └── LibroRepository.java
+├── service
+│   ├── ApiClient.java
+│   ├── LibroService.java
+│   └── MenuService.java
+├── mapper
+│   └── LibroMapper.java
+└── controller
+    └── LibroController.java
+```
 ## 🎯 Metodología de Desarrollo
 
 - **Gestión de tareas**: Usamos **Trello** para organizar las actividades del proyecto.
@@ -118,4 +142,3 @@ Este proyecto me permitió aprender y aplicar los siguientes conceptos:
 
 
 ¡Gracias por visitar el proyecto! 🎉
-
