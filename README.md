@@ -122,4 +122,14 @@ Este proyecto me permitió aprender y aplicar los siguientes conceptos:
 ---
 
 
+
+🔧 Estatus del Proyecto
+
+Finalizado :black_nib:
+
+## 👤 Autor
+
+Proyecto desarrollado por Jamer Linares.
+
+
 ¡Gracias por visitar el proyecto! 🎉
